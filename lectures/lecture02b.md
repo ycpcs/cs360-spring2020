@@ -70,21 +70,21 @@ Data Collection
 
 Once the implementation is verified to be working, data can be generated for random inputs of various sizes and/or element ranges. For example, a table of output data for the bubble sort implementation where the first column represents the input *size*, i.e. number of elements in the input array, the second column is the average counts when run on arrays with elements in the range [1->32768], and the third column is the average counts when run on arrays with elements in the range [1->1024].
 
-n                   ,Bubble-32768        ,Bubble-1024         
---------------------,--------------------,--------------------
-16                  ,341                 ,337                 
-32                  ,1325                ,1312                
-64                  ,5164                ,5092                
-128                 ,20598               ,20513               
-256                 ,81455               ,81858               
-512                 ,328957              ,325107              
-1024                ,1311527             ,1313036             
-2048                ,5235204             ,5250859             
-4096                ,20961492            ,20923727            
-8192                ,83937509            ,83938403            
-16384               ,335295724           ,335134521           
-32768               ,1343230278          ,1339815632          
-65536               ,1068059893          ,1070383972
+> n                   |Bubble-32768        |Bubble-1024         |
+> --------------------|--------------------|--------------------|
+> 16                  |341                 |337                 |
+> 32                  |1325                |1312                |
+> 64                  |5164                |5092                |
+> 128                 |20598               |20513               |
+> 256                 |81455               |81858               |
+> 512                 |328957              |325107              |
+> 1024                |1311527             |1313036             |
+> 2048                |5235204             |5250859             |
+> 4096                |20961492            |20923727            |
+> 8192                |83937509            |83938403            |
+> 16384               |335295724           |335134521           |
+> 32768               |1343230278          |1339815632          |
+> 65536               |1068059893          |1070383972          |
 
 Graphical Evaluation
 ====================
@@ -103,20 +103,20 @@ Adding a trend curve
 
 Given that the asymptotic behavior for bubble sort is O(n<sup>2</sup>), we wish to fit a quadratic of the form **cn**<sup>2</sup> to the empirical data points. However, since this asymptotic bound is only valid for *sufficiently large* input sizes, the curve should be biased to fit the larger input size data points more closely than the smaller input sizes. We will accomplish this by simply creating additional column(s) in our table that **calculates** the asymptotic values for a chosen value of **c** from the input size rather than attempt to use a regression curve fit. We can then add this column to the scatter plot displaying it as a *curve* rather than *points* and adjust *c* until the curve fits the larger points well.
 
-n                   , Bubble - 32768     , Bubble - 1024      ,1.3 n^2
---------------------,--------------------,--------------------,--------------------
-16                  ,341                 ,337                 ,332.8
-32                  ,1325                ,1312                ,1331.2
-64                  ,5164                ,5092                ,5324.8
-128                 ,20598               ,20513               ,21299.2
-256                 ,81455               ,81858               ,85196.8
-512                 ,328957              ,325107              ,340787.2
-1024                ,1311527             ,1313036             ,1363148.8
-2048                ,5235204             ,5250859             ,5452595.2
-4096                ,20961492            ,20923727            ,21810380.8
-8192                ,83937509            ,83938403            ,87241523.2
-16384               ,335295724           ,335134521           ,348966092.8
-32768               ,1343230278          ,1339815632          ,1395864371
+> n                   | Bubble - 32768     | Bubble - 1024      |1.3 n^2             |
+> --------------------|--------------------|--------------------|--------------------|
+> 16                  |341                 |337                 |332.8               |
+> 32                  |1325                |1312                |1331.2              |
+> 64                  |5164                |5092                |5324.8              |
+> 128                 |20598               |20513               |21299.2             |
+> 256                 |81455               |81858               |85196.8             |
+> 512                 |328957              |325107              |340787.2            |
+> 1024                |1311527             |1313036             |1363148.8           |
+> 2048                |5235204             |5250859             |5452595.2           |
+> 4096                |20961492            |20923727            |21810380.8          |
+> 8192                |83937509            |83938403            |87241523.2          |
+> 16384               |335295724           |335134521           |348966092.8         |
+> 32768               |1343230278          |1339815632          |1395864371          |
 
 > ![image](images/lecture02b/bubblegraph.pdf)
 

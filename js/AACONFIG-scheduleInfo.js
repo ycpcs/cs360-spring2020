@@ -14,7 +14,7 @@ courseInfo.classPeriods = [
 		reading: "Ch. 2.1&ndash;2.2",
 	},
 	{
-		topic: new Topic("Lecture 2b: Empirical Comparison", "lectures/lecture02b.html"),
+		topic: new Topic("Lecture 2b: Empirical Analysis", "lectures/lecture02b.html"),
 		reading: "",
 	},
 	{

@@ -95,7 +95,7 @@ Function call statements **DO NOT** increment the counter since their runtime is
 
 Return statement **DO NOT** increment the counter.
 
-Loop statements, i.e. **for** and **while**, will execute *one more* time than the statements in the loop body. Hence a counter can be added to a loop as follows
+Loop statements, i.e. **for** and **while**, will execute *one more* time than the statements in the loop body. Hence a counter can be added both within and after the loop statement as follows
 
     for (...) {
        count++;
@@ -109,11 +109,13 @@ Loop statements, i.e. **for** and **while**, will execute *one more* time than t
     }
     count++;
         
-For logical structures, i.e.**if**, **if/else**, **if/else if/ else**, there will need to be counters in *each* branch for the *total* number of conditions to ensure proper counting dependent on which branch executes
+For logical structures, i.e.**if**, **if/else**, **if/else if/ else**, there will need to be counters in *each* branch for the *total* number of conditions to ensure proper counting dependent on which branch executes. Note: if there is no **else** branch, one should be added with simply the count increment in the case when the condition is false to properly count the evaluation of the condition 
 
     if (...) {
        count++;
        // Body of if
+    } else {
+       count++;
     }
     
     if (...) {

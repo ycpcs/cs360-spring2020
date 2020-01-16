@@ -3,7 +3,7 @@ layout: default
 title: "Lecture 3: Asymptotic Notation"
 ---
 
-Last class we performed a detailed analysis of insertion sort only to end up discarding most of the work by only keeping the highest order term. We intuitively described the *asymptotic growth* of a function based on the *input size*, i.e. for "sufficiently large" values of *n*. Formal mathematical notation can be used to both rigorously define the asymptotic behavior for a particular algorithm as well as serve as a mechanism to *compare* algorithms. Thus typically the asymptotic behavior is used to describe the *efficiency* of an algorithm without requiring computation of the exact run time.
+In [lecture 2](lecture02.html) we performed a detailed analysis of insertion sort only to end up discarding most of the work by only keeping the highest order term. In [lecture 2b](lecture2b.html) we implemented psueudocode and added counters to empirically measure the runtime for different input sizes to get an estimate of the *constant* for the highest order term. We intuitively described the *asymptotic growth* of a function based on the *input size*, i.e. for "sufficiently large" values of *n*. Formal mathematical notation can be used to both rigorously define the asymptotic behavior for a particular algorithm as well as serve as a mechanism to *compare* algorithms. Thus typically the asymptotic behavior is used to describe the *efficiency* of an algorithm without requiring computation of the exact run time.
 
 We will want to find either or both an asymptotic *lower bound* and *upper bound* for the growth of our function. The *lower bound* represents the *best case* growth of the algorithm while the *upper bound* represents the *worst case* growth of the algorithm.
 

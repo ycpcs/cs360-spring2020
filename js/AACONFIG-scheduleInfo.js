@@ -6,7 +6,7 @@ courseInfo.classPeriods = [
 		reading: "Ch. 1",
 	},
 	{
-		topic: new Topic("Lecture 2: Insertion Sort", "lectures/lecture02.html"),
+		topic: new DoubleTopic("Lecture 2: Insertion Sort", "lectures/lecture02.html", "Sort Visualization", "http://math.hws.edu/eck/js/sorting/xSortLab.html"),
 		reading: "Ch. 2.1&ndash;2.2",
 	},
 	{

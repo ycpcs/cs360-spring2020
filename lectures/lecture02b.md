@@ -61,7 +61,7 @@ Our first step in benchmarking an algorithm is to implement the pseudocode in a 
 
 The following example shows the pseudocode for bubble sort and the corresponding C implementation with added counter increments
 
-> ![image](images/lecture02b/bubblesort.pdf)
+> ![image](images/lecture02b/bubblesort.png)
 
 Note that even though the exchange takes *three* lines of C code, we only count the entire sequence *once* as it represents a single line of pseudocode.
 
@@ -94,7 +94,7 @@ Plotting the data
 
 Using a graphing program, e.g. spreadsheet, the data can be displayed graphically. Since these are empirical data points, they should appear on the graph only as points. Use a *scatter plot* such that *n* is the x axis and the runtime values are the y axis. 
 
-> ![image](images/lecture02b/bubbledata.pdf)
+> ![image](images/lecture02b/bubbledata.png)
 
 Note that for this example the two data sets are very close, thus the data points overlap. Furthermore, note that the last data point seems to be out of place with the other data. This may indicate an error in the code, or more likely in this case a numerical precision overflow. Thus this bad data point should be removed prior to fitting an asymptotic trend curve.
 
@@ -118,7 +118,7 @@ Given that the asymptotic behavior for bubble sort is O(n<sup>2</sup>), we wish 
 > 16384               |335295724           |335134521           |348966092.8         |
 > 32768               |1343230278          |1339815632          |1395864371          |
 
-> ![image](images/lecture02b/bubblegraph.pdf)
+> ![image](images/lecture02b/bubblegraph.png)
 
 
 

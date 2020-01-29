@@ -35,7 +35,7 @@ MAT235 - Discrete Math **OR** ECE335 - Computations in Discrete Mathematics **OR
 Textbook
 --------
 
-Cormen, Leiserson, Rivest, and Stein. [Introduction to Algorithms: 3rd Edition](http://mitpress.mit.edu/books/introduction-algorithms) , MIT Press, 2009.
+Cormen, Leiserson, Rivest, and Stein. [Introduction to Algorithms: 3rd Edition](https://mitpress.mit.edu/books/introduction-algorithms-third-edition) , MIT Press, 2009.
 
 Supplemental Reference
 ----------------------

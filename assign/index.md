@@ -7,7 +7,7 @@ This page links to assignment descriptions.
 
 > Due Date |                Assignment                                | Solutions                                               |
 > -------- | -------------------------------------------------------- | ------------------------------------------------------- |
-> Jan 31   | [Assignment 1](../assign/assign01.html)                  |  |
+> Jan 31   | [Assignment 1](../assign/assign01.html)                  | [Assignment 1 Solutions](../assign/sol/assign01sol.pdf) |
 > Feb 10   | [Assignment 2](../assign/assign02.html)                  |  |
 > Feb 24   | [Assignment 3](../assign/assign03.html)                  |  |
 > Mar 10   | [Empirical Comparison Report](../assign/emp_comp.html)   | **Upload .pdf to** [Marmoset](https://cs.ycp.edu/marmoset/login) |

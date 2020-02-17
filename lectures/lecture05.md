@@ -104,7 +104,7 @@ For this equation *a* = 1, *b* = 3/2, and *f(n)* = 1. Intuitively this equation 
 
 Then
 
-> ![image](images/lecture05/sol1b.png)
+> ![image](images/lecture05/sol2b.png)
 
 Hence the equation satisfies *Case 2* so the solution is
 

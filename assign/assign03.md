@@ -14,11 +14,11 @@ Heap sort, quick sort, and linear sort implementations
 
 *Hints:*
 
-> 6.1-1 - Recall that a heap is a *nearly complete* binary tree. Furthermore, the *height* of a heap is the maximal number of *edges* from the root to a leaf node.
->
-> 6.1-4 - Consider what the heap property enforces with respect to the smallest node, i.e. where in the tree must it be.
->
 > 6.4-3 - Explain the difference in run-times for best and worst case heapsort both practically and asymptotically.
+> 
+> 7.2-3 - For an array in *decreasing* order, consider which element is selected as the pivot element during each recursive call and where it is placed once PARTITION() completes. Argue that this behavior produces O(*n*<sup>2</sup>) runtime.
+> 
+> 8.1-4 - (I like these n/k hybrid algorithms) Use an argument similar to the original Θ(n lg n) one in Theorem 8.1 and show that 
 
 **Implementation**
 

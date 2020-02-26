@@ -10,7 +10,7 @@ Book Questions from *Introduction to Algorithms - 3rd ed.*
 
 6.4-3, 7.2-3, 8.1-4
 
-Heap sort, quick sort, and linear sort implementations
+Heap sort, quick sort, and linear sort implementations (5 points per sort)
 
 *Hints:*
 

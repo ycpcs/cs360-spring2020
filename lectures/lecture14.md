@@ -36,6 +36,8 @@ Find a *maximal* set of compatible activies, e.g. scheduling the most activities
 
 Without loss of generality, we will assume that the *a*'s are sorted in non-decreasing order of finishing times, i.e. *f*<sub>1</sub> ≤ *f*<sub>2</sub> ≤ ... ≤ *f*<sub>n</sub>.
 
+Furthermore, we can define boundary activities *a*<sub>0</sub> such that *f*<sub>0</sub> = 0, and *a*<sub>n+1</sub> such that *s*<sub>n+1</sub> = *f*<sub>n</sub>.
+
 Define the set *S*<sub>ij</sub>
 
 > *S*<sub>ij</sub> = {*a*<sub>k</sub> ∈ *S* : *f*<sub>i</sub> ≤ *s*<sub>k</sub> \< *f*<sub>k</sub> ≤ *s*<sub>j</sub>}
@@ -52,15 +54,21 @@ where *A*<sub>ik</sub> and *A*<sub>kj</sub> must also be optimal (otherwise if w
 
 *Step 2: Define the recursive solution (top-down)*
 
-Let *c[i,j]* = \|*A*<sub>ij</sub>\|, then
+Let *c[0,n+1]* = \|*A*<sub>0,n+1</sub>\|, i.e. *c* is the maximal number of compatible activities that start *after* *a*<sub>0</sub> and end *before* *a*<sub>n+1</sub>. Then
 
 > ![image](images/lecture14/actselformula.png)
 
-i.e. compute *c[i,j]* for each *k* = *i*+1, ..., *j*-1 and select the max.
+i.e. compute *c[0,n+1]* for each *k* = 1, ..., n and select the max.
 
 *Step 3: Compute the maximal set size (bottom-up)*
 
-Construct an *n* x *n* table which can be done in polynomial time since clearly for each *c[i,j]* we will examine no more than *n* subproblems giving an upper bound on the worst case of O(*n*<sup>3</sup>).
+Substituting *i* for 0 and *j* for *n+1* gives 
+
+> ![image](images/lecture14/actselformula2.png)
+
+with *c[i,j]* = 0 for *i* ≥ *j*.
+
+Hence, construct an *n* x *n* table (which is upper triangular) that can be done in polynomial time since clearly for each *c[i,j]* we will examine no more than *n* subproblems giving an upper bound on the worst case of O(*n*<sup>3</sup>).
 
 **BUT WE DON'T NEED TO DO ALL THAT WORK!** Instead at each step we could simply select (*greedily*) the activity that finishes first and is compatible with the previous activities. Intuitively this choice leaves the most time for other future activities.
 

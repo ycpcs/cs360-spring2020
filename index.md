@@ -26,8 +26,8 @@ Welcome to the website for CS 360, Analysis of Algorithms, at York College.  All
 * **Mar 2, 4, 6 - NO CLASS (Winter Break)**
 * **Mar 10** - [Empirical Comparison Report](assign/emp_comp.html) Due
 * **Mar 11 - EXAM II. Take home due in class Mon, Mar 16**
-* **Mar 23** - [Assignment 4](assign/assign04.html) Due
-* **Mar 30** - [Assignment 5](assign/assign05.html) Due
+* **Mar 25** - [Assignment 4](assign/assign04.html) Due
+* **Apr 1** - [Assignment 5](assign/assign05.html) Due
 * **Apr 1 - EXAM III. Take home due in class Mon, Apr 6**
 * **Apr 10, 13 - NO CLASS (Spring Break)**
 * **Apr 20** - [Assignment 6](assign/assign06.html) Due

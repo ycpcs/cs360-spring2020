@@ -92,11 +92,11 @@ courseInfo.classPeriods = [
 		reading: "Appendix B.4",
 	},
 	{
-		topic: new TripleTopic("Lecture 16: Breadth-First Search", "lectures/lecture16.html", "BFS Practice Activity", "handouts/lecture16-bfsact.pdf", "BFS Solution", "handouts/lecture16-bfsact-sol.pdf"),
+		topic: new FourTopic("Lecture 16: Breadth-First Search", "lectures/lecture16.html", "BFS Example", "handouts/lecture16-bfsex.pdf", "BFS Practice Activity", "handouts/lecture16-bfsact.pdf", "BFS Solution", "handouts/lecture16-bfsact-sol.pdf"),
 		reading: "Ch. 22.2",
 	},
 	{
-		topic: new FourTopic("Lecture 17: Depth-First Search", "lectures/lecture17.html", "DFS Practice Activity", "handouts/lecture17-dfsact.pdf", "DFS Solution", "handouts/lecture17-dfsact-sol.pdf", "Assignment 4 Due", "assign/assign04.html"),
+		topic: new FiveTopic("Lecture 17: Depth-First Search", "lectures/lecture17.html", "DFS Example", "handouts/lecture17-dfsex.pdf", "DFS Practice Activity", "handouts/lecture17-dfsact.pdf", "DFS Solution", "handouts/lecture17-dfsact-sol.pdf", "Assignment 4 Due", "assign/assign04.html"),
 		reading: "Ch. 22.3"
 	},
 	{

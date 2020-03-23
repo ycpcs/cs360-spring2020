@@ -100,7 +100,7 @@ courseInfo.classPeriods = [
 		reading: "Ch. 22.3"
 	},
 	{
-		topic: new FiveTopic("Lecture 18: DFS Applications", "lectures/lecture18.html", "Topological Sort Practice Activity", "handouts/lecture18-topsortact.pdf", "Top Sort Solution", "handouts/lecture18-topsortact-sol.pdf", "SCCD Practice Activity", "handouts/lecture18-sccex.pdf", "SCCD Solution", "handouts/lecture18-sccex-sol.pdf"),
+		topic: new SixTopic("Lecture 18: DFS Applications", "lectures/lecture18.html", "DFS Application Examples", "handouts/lecture18-dfsappex.pdf", "Topological Sort Practice Activity", "handouts/lecture18-topsortact.pdf", "Top Sort Solution", "handouts/lecture18-topsortact-sol.pdf", "SCCD Practice Activity", "handouts/lecture18-sccex.pdf", "SCCD Solution", "handouts/lecture18-sccex-sol.pdf"),
 		reading: "Ch. 22.4&ndash;22.5",
 	},
 	{

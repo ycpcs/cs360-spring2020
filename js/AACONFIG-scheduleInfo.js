@@ -104,15 +104,15 @@ courseInfo.classPeriods = [
 		reading: "Ch. 22.4&ndash;22.5",
 	},
 	{
+		topic: new TripleTopic("Lecture 19: Minimum Spanning Trees - Kruskal", "lectures/lecture19.html", "Kruskal Practice Activity", "handouts/lecture19-Kruskalact.pdf", "Kruskal Solution", "handouts/lecture19-Kruskalactsol.pdf"),
+		reading: "Ch. 23.1",
+	},
+	{
 		topic: new DoubleTopic("Exam 3 Review", "", "Assignment 5 Due", "assign/assign05.html"),
 		reading: "",
 	},
 	{
-		topic: new Topic("** Exam 3 - Takehome Due Mon Apr 6", "")
-	},
-	{
-		topic: new TripleTopic("Lecture 19: Minimum Spanning Trees - Kruskal", "lectures/lecture19.html", "Kruskal Practice Activity", "handouts/lecture19-Kruskalact.pdf", "Kruskal Solution", "handouts/lecture19-Kruskalactsol.pdf"),
-		reading: "Ch. 23.1",
+		topic: new Topic("** Exam 3 - Takehome Due Wed Apr 8", "")
 	},
 	{
 		topic: new TripleTopic("Lecture 20: Minimum Spanning Trees - Prim", "lectures/lecture20.html", "Prim Practice Activity", "handouts/lecture20-Primact.pdf", "Prim Solution", "handouts/lecture20-Primactsol.pdf"),

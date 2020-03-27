@@ -104,7 +104,7 @@ courseInfo.classPeriods = [
 		reading: "Ch. 22.4&ndash;22.5",
 	},
 	{
-		topic: new TripleTopic("Lecture 19: Minimum Spanning Trees - Kruskal", "lectures/lecture19.html", "Kruskal Practice Activity", "handouts/lecture19-Kruskalact.pdf", "Kruskal Solution", "handouts/lecture19-Kruskalactsol.pdf"),
+		topic: new FourTopic("Lecture 19: Minimum Spanning Trees - Kruskal", "lectures/lecture19.html", "Kruskal Example", "handouts/lecture19-Kruskalex.pdf", "Kruskal Practice Activity", "handouts/lecture19-Kruskalact.pdf", "Kruskal Solution", "handouts/lecture19-Kruskalactsol.pdf"),
 		reading: "Ch. 23.1",
 	},
 	{

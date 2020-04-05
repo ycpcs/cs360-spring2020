@@ -115,11 +115,11 @@ courseInfo.classPeriods = [
 		topic: new Topic("** Exam 3 - Takehome Due Wed Apr 8", "")
 	},
 	{
-		topic: new TripleTopic("Lecture 20: Minimum Spanning Trees - Prim", "lectures/lecture20.html", "Prim Practice Activity", "handouts/lecture20-Primact.pdf", "Prim Solution", "handouts/lecture20-Primactsol.pdf"),
+		topic: new FourTopic("Lecture 20: Minimum Spanning Trees - Prim", "lectures/lecture20.html", "Prim Example", "handouts/lecture20-Primex.pdf","Prim Practice Activity", "handouts/lecture20-Primact.pdf", "Prim Solution", "handouts/lecture20-Primactsol.pdf"),
 		reading: "Ch. 23.2",
 	},
 	{
-		topic: new Topic("Lecture 21: Shortest Path - Bellman-Ford", "lectures/lecture21.html"),
+		topic: new DoubleTopic("Lecture 21: Shortest Path - Bellman-Ford", "lectures/lecture21.html", "Bellman-Ford Example", "handouts/lecture21-BellmanFordex.pdf"),
 		reading: "Ch. 24.1&ndash;24.2",
 	},
 	{

@@ -123,7 +123,7 @@ courseInfo.classPeriods = [
 		reading: "Ch. 24.1&ndash;24.2",
 	},
 	{
-		topic: new FourTopic("Lecture 22: Shortest Path - Dijkstra", "lectures/lecture22.html", "Lecture 23: Shortest Path - Floyd-Warshall", "lectures/lecture23.html", "SSSP Practice Activity", "handouts/lecture22-ssspact.pdf", "SSSP Solution", "handouts/lecture22-ssspactsol.pdf"),
+		topic: new FiveTopic("Lecture 22: Shortest Path - Dijkstra", "lectures/lecture22.html", "Dijkstra Example", "handouts/lecture22-Dijkstraex.pdf", "Lecture 23: Shortest Path - Floyd-Warshall", "lectures/lecture23.html", "SSSP Practice Activity", "handouts/lecture22-ssspact.pdf", "SSSP Solution", "handouts/lecture22-ssspactsol.pdf"),
 		reading: "Ch. 24.3",
 	},
 	{
@@ -131,11 +131,11 @@ courseInfo.classPeriods = [
 		reading: "Ch. 26.1",
 	},
 	{
-		topic: new FourTopic("Lecture 25: Maximal Flow- Ford-Fulkerson", "lectures/lecture25.html", "Max Flow Practice Activity", "handouts/lecture25-maxflowact.pdf", "Max Flow Solution", "handouts/lecture25-maxflowactsol.pdf", "Assignment 6 Due", "assign/assign06.html"),
+		topic: new ThreeTopic("Lecture 25: Maximal Flow- Ford-Fulkerson", "lectures/lecture25.html", "Max Flow Practice Activity", "handouts/lecture25-maxflowact.pdf", "Max Flow Solution", "handouts/lecture25-maxflowactsol.pdf"),
 		reading: "Ch. 26.2",
 	},
 	{
-		topic: new Topic("Lecture 26: NP Completeness", "lectures/lecture26.html"),
+		topic: new DoubleTopic("Lecture 26: NP Completeness", "lectures/lecture26.html", "Assignment 6 Due", "assign/assign06.html"),
 		reading: "Ch. 34.1&ndash;34.3",
 	},
 	{

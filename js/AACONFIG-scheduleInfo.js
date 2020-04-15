@@ -131,7 +131,7 @@ courseInfo.classPeriods = [
 		reading: "Ch. 26.1",
 	},
 	{
-		topic: new TripleTopic("Lecture 25: Maximal Flow- Ford-Fulkerson", "lectures/lecture25.html", "Max Flow Practice Activity", "handouts/lecture25-maxflowact.pdf", "Max Flow Solution", "handouts/lecture25-maxflowactsol.pdf"),
+		topic: new FourTopic("Lecture 25: Maximal Flow- Ford-Fulkerson", "lectures/lecture25.html", "Ford-Fulkerson (Edmonds-Karp) Example", "handouts/lecture25-FordFulkersonex.pdf", "Max Flow Practice Activity", "handouts/lecture25-maxflowact.pdf", "Max Flow Solution", "handouts/lecture25-maxflowactsol.pdf"),
 		reading: "Ch. 26.2",
 	},
 	{

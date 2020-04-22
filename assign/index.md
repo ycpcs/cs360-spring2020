@@ -13,7 +13,7 @@ This page links to assignment descriptions.
 > Mar 10   | [Empirical Comparison Report](../assign/emp_comp.html)   | **Upload .pdf to** [Marmoset](https://cs.ycp.edu/marmoset/login) |
 > Mar 25   | [Assignment 4](../assign/assign04.html)                  | [Assignment 4 Solutions](../assign/sol/assign04sol.pdf) |
 > Apr 1    | [Assignment 5](../assign/assign05.html)                  | [Assignment 5 Solutions](../assign/sol/assign05sol.pdf) |
-> Apr 22   | [Assignment 6](../assign/assign06.html)                  |  |
+> Apr 22   | [Assignment 6](../assign/assign06.html)                  | [Assignment 6 Solutions](../assign/sol/assign06sol.pdf) |
 > Apr 29   | [Assignment 7](../assign/assign07.html)                  |  |
 > May 11,13| [Final Project](../assign/finalproj.html)                | **Upload .pdf to** [Marmoset](https://cs.ycp.edu/marmoset/login) |
 

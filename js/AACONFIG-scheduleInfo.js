@@ -139,11 +139,11 @@ courseInfo.classPeriods = [
 		reading: "Ch. 34.1&ndash;34.3",
 	},
 	{
-		topic: new Topic("Lecture 27: NP Complete Problems", "lectures/lecture27.html"),
+		topic: new DoubleTopic("Lecture 27: NP Complete Problems", "lectures/lecture27.html", "Clique Example", "handouts/lecture27-cliqueblank.pdf"),
 		reading: "Ch. 34.4",
 	},
 	{
-		topic: new Topic("Lecture 28: More NP Complete Problems", "lectures/lecture28.html"),
+		topic: new DoubleTopic("Lecture 28: More NP Complete Problems", "lectures/lecture28.html", "Vertex Cover and TSP Example", "handouts/lecture28-VertCovTSPex.pdf"),
 		reading: "Ch. 34.4",
 	},
 	{
@@ -154,7 +154,7 @@ courseInfo.classPeriods = [
 		topic: new Topic("** Exam 4 - Takehome Due Wed May 6", "")
 	},
 	{
-		topic: new Topic("Lecture 29: Approximation Algorithms", "lectures/lecture29.html"),
+		topic: new TripleTopic("Lecture 29: Approximation Algorithms", "lectures/lecture29.html", "Approx Vertex Cover Example", "handouts/lecture29-appvertcoverblank.pdf", "Approx TPS Example", "handouts/lecture29-approxTSPblank.pdf"),
 		reading: "Ch. 35.1-35.2",
 	},
 	{

@@ -6,7 +6,7 @@ title: "Final Project"
 CS360 Final Project
 ===================
 
-**Due: Monday, May 11th 10:15am-12:15pm (102) or May 13th (101) 8:00am-10:00am (final exam period)**
+<strike>Due: Monday, May 11th 10:15am-12:15pm (102) or May 13th (101) 8:00am-10:00am (final exam period)</strike>
 
 Upload a .pdf of the final report to [Marmoset](https://cs.ycp.edu/marmoset/login) by 5pm on **May 13th**.
 

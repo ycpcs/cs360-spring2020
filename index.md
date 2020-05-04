@@ -32,7 +32,7 @@ Welcome to the website for CS 360, Analysis of Algorithms, at York College.  All
 * **Apr 10, 13 - NO CLASS (Spring Break)**
 * **Apr 22** - [Assignment 6](assign/assign06.html) Due
 * **Apr 29** - [Assignment 7](assign/assign07.html) Due
-* **May 1 - EXAM IV. Take home due in class Wed, May 6**
+* **May 1 - EXAM IV. Take home due Wed, May 6.** Upload a **SINGLE** pdf to Google Drive by 11:59pm
 * <strike>May 11, 13 - Final Project Presentations</strike> 
 * **May 13** - [Final Project Report](assign/finalproj.html) Due. Upload a .pdf to [Marmoset](https://cs.ycp.edu/marmoset/login) by 5pm.
 

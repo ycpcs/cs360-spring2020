@@ -143,7 +143,7 @@ courseInfo.classPeriods = [
 		reading: "Ch. 34.4",
 	},
 	{
-		topic: new DoubleTopic("Lecture 28: More NP Complete Problems", "lectures/lecture28.html", "Vertex Cover and TSP Example", "handouts/lecture28-VertCovTSPex.pdf"),
+		topic: new DoubleTopic("Lecture 28: More NP Complete Problems", "lectures/lecture28.html", "Vertex Cover and TSP Example", "handouts/lecture28-VerCovTSPex.pdf"),
 		reading: "Ch. 34.4",
 	},
 	{
